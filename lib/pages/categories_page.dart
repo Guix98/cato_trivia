@@ -17,8 +17,8 @@ class CategoriesPage extends StatelessWidget {
           crossAxisCount: 2,
           children: [
             CategoryContainer(
-                icon: SvgPicture.asset('assets/svg/art.svg'),
-                name: 'Arte y literatura',
+                icon: SvgPicture.asset('assets/svg/teology.svg'),
+                name: 'General',
                 questionsQuantity: 50,
                 color: Color(0xff88E2CE)),
             CategoryContainer(

@@ -1,0 +1,856 @@
+ {
+     "0NktTPC1EH0VIX9lGsmc": {
+         "categoria": "ADVIENTO",
+         "pregunta": "EXCEPCIONALMENTE SE PUEDE CANTAR EL GLORIA DURANTE EL ADVIENTO EN LA SOLEMNIDAD DE LA INMACULADA CONCEPCIÓN, EL 8 DE DICIEMBRE; Y LA FIESTA DE LA VIRGEN DE GUADALUPE EL DÍA 12 DEL MISMO MES.",
+         "respuesta": "VERDADERO",
+         "tipo": "VF"
+
+     },
+     "15vfaAZV4KtOEzaREJQQ": {
+         "categoria": "ADVIENTO",
+         "incorrecta1": "JESUS",
+         "incorrecta2": "MARIA",
+         "incorrecta3": "JOSE",
+         "pregunta": "EN ADVIENTO NACE",
+         "respuesta": "NINGUNA DE LAS ANTERIORES",
+         "tipo": "M"
+
+     },
+     "19LVPtU1Q5hSRcBVx39K": {
+         "categoria": "CUARESMA",
+         "incorrecta1": "DOS",
+         "incorrecta2": "NINGUNA",
+         "incorrecta3": "TRES",
+         "pregunta": "¿CUÁNTAS COMIDAS COMPLETAS DEBEMOS COMER EN UN DÍA DE AYUNO?",
+         "respuesta": "UNA",
+         "tipo": "M"
+
+     },
+     "1M3wC1rAFxIWnT0Okuul": {
+         "categoria": "ADVIENTO",
+         "incorrecta1": "POSADAS NAVIDEÑAS",
+         "incorrecta2": "NOVENA NAVIDEÑA",
+         "incorrecta3": "ARMAR LA CORONA DE ADVIENTO",
+         "pregunta": "QUE SE PUEDE HACER EN ADVIENTO",
+         "respuesta": "TODAS LAS ANTERIORES",
+         "tipo": "M"
+
+     },
+     "1YShN68mf6A3EOD36yPu": {
+         "categoria": "GENERAL",
+         "incorrecta1": "73",
+         "incorrecta2": "46",
+         "incorrecta3": "25",
+         "pregunta": "¿CUANTOS LIBROS EL NUEVO TESTAMENTO ?",
+         "respuesta": "27",
+         "tipo": "M"
+
+     },
+     "1hEGyLozt2LGTDYzb75B": {
+         "categoria": "GENERAL",
+         "incorrecta1": "PAPA JUAN PABLO",
+         "incorrecta2": "PAPA BENEDICTO",
+         "incorrecta3": "PAPA ANACLETO",
+         "pregunta": "¿QUIÉN ES EL ACTUAL PAPA?",
+         "respuesta": "PAPA FRANCISCO",
+         "tipo": "M"
+
+     },
+     "2L19dpGHSc68vwOD0SZ2": {
+         "categoria": "GENERAL",
+         "incorrecta1": "RAFAEL",
+         "incorrecta2": "MIGUEL",
+         "incorrecta3": "URIEL",
+         "pregunta": "¿CÓMO SE LLAMA EL ÁNGEL QUE SE APARECE A MARÍA Y LE ANUNCIA LA ENCARNACIÓN?",
+         "respuesta": "GABRIEL",
+         "tipo": "M"
+
+     },
+     "33Y58W9R3Mvmnbq37QUv": {
+         "categoria": "NAVIDAD",
+         "incorrecta1": "HERODES ANTIPAS.",
+         "incorrecta2": "HERODES FILIPO.",
+         "incorrecta3": "HERODES AGRIPA II",
+         "pregunta": "¿CUÁL DE ESTOS REYES ORDENÓ LA MASACRE DE NIÑOS MENORES DE 2 AÑOS CON LA INTENCIÓN DE ELIMINAR AL MESÍAS?",
+         "respuesta": "HERODES EL GRANDE I",
+         "tipo": "M"
+
+     },
+     "34tB2jKkyO4Pgnx6Bkyz": {
+         "categoria": "GENERAL",
+         "incorrecta1": "BABILONIA",
+         "incorrecta2": "EGIPTO",
+         "incorrecta3": "MESOPOTAMIA",
+         "pregunta": "¿EN QUÉ LUGAR, SEGÚN EL RELATO BÍBLICO, SE ENCONTRABA EL PARAISO TERRENAL?",
+         "respuesta": "EDÉN",
+         "tipo": "M"
+
+     },
+     "49kxJ3ItkrLJUYDmepol": {
+         "categoria": "PASCUA",
+         "incorrecta1": "EN EL DOMINGO DE RESURECCION",
+         "incorrecta2": "EN LA VIGILIA PASCUAL",
+         "incorrecta3": "NINGUNA DE LAS ANTERIORES",
+         "pregunta": "¿CUÁNDO CONCLUYE LA PASCUA?",
+         "respuesta": "EN PENTECOSTES",
+         "tipo": "M"
+
+     },
+     "4ZgMg3rz1Qo4NQtyPdFW": {
+         "categoria": "PASCUA",
+         "incorrecta1": "LA RESURECCION",
+         "incorrecta2": "LA ULTIMA CENA",
+         "incorrecta3": "NINGUNA DE LAS ANTERIORES",
+         "pregunta": "¿QUÉ SE CELEBRA EL VIERNES SANTO?",
+         "respuesta": "LA PASIÓN DEL SEÑOR Y ADORAMOS SU CRUZ.",
+         "tipo": "M"
+
+     },
+     "4lb9uFXoxGkJro805uX8": {
+         "categoria": "GENERAL",
+         "incorrecta1": "COMO SIGNO DE OSTENTACIÓN",
+         "incorrecta2": "PARA COMPENSAR EL PESO DE LA ALTURA",
+         "incorrecta3": "NADA",
+         "pregunta": "¿PARA QUÉ ESTÁN LAS CAMPANAS EN LOS CAMPANARIOS DE LAS IGLESIAS?",
+         "respuesta": "PARA LLAMAR A LOS FIELES A LAS CELEBRACIONES",
+         "tipo": "M"
+
+     },
+     "4sKLo5R9DpA5McOuuc0p": {
+         "categoria": "GENERAL",
+         "incorrecta1": "LA VIDA Y PREDICACIÓN DE JESÚS",
+         "incorrecta2": "EL NACIMIENTO DE JESÚS",
+         "incorrecta3": "NINGUNA",
+         "pregunta": "¿QUÉ CELEBRA LA IGLESIA CATÓLICA EN SEMANA SANTA?",
+         "respuesta": "LA MUERTE Y RESURRECCIÓN DE JESÚS",
+         "tipo": "M"
+
+     },
+     "83MPZyxZtIr43RO3gju6": {
+         "categoria": "PASCUA",
+         "incorrecta1": "LOS MISTERIOS DE LA PASIÓN",
+         "incorrecta2": "LOS MISTERIOS DE LA MUERTE",
+         "incorrecta3": "LOS MISTERIOS DE LA RESURRECCIÓN",
+         "pregunta": "DURANTE LA SEMANA SANTA LA IGLESIA ¿QUÉ CELEBRA?",
+         "respuesta": "TODAS LAS ANTERIORES",
+         "tipo": "M"
+
+     },
+     "90EluRyhkHX9dtUbizyH": {
+         "categoria": "PASCUA",
+         "incorrecta1": "MISA EXCLUSIVA",
+         "incorrecta2": "LA TRADICION",
+         "incorrecta3": "NINGUNA DE LAS ANTERIORES",
+         "pregunta": "¿QUÉ SIGNIFICADO TIENE LA MISA CRISMAL?",
+         "respuesta": "COMUNIÓN ENTRE EL OBISPO Y LOS SACERDOTES",
+         "tipo": "M"
+
+     },
+     "A8weU7sJqGPPRSGnreJD": {
+         "categoria": "NAVIDAD",
+         "incorrecta1": "EL 25 DE DICIEMBRE",
+         "incorrecta2": "EL 16 DE DICIEMBRE",
+         "incorrecta3": "EL 24 DE DICIEMBRE",
+         "pregunta": "¿CUÁNDO SE CELEBRA LA FIESTA DE LA EPIFANÍA?",
+         "respuesta": "EL 6 DE ENERO.",
+         "tipo": "M"
+
+     },
+     "AvIF58T8NMD8aY3L9ubK": {
+         "categoria": "GENERAL",
+         "pregunta": "¿SON CRISTIANOS LOS CATÓLICOS?",
+         "respuesta": "VERDADERO",
+         "tipo": "VF"
+
+     },
+     "BJWM9uQUwPo9x1uUiuWU": {
+         "categoria": "NAVIDAD",
+         "incorrecta1": "EN EL ANTIGUO TESTAMENTO.",
+         "incorrecta2": "EN EL NUEVO TESTAMENTO.",
+         "incorrecta3": "EN AMBOS TESTAMENTOS",
+         "pregunta": "¿EN QUÉ PARTE DE LA BIBLIA APARECEN LOS NOMBRES DE LOS TRES REYES MAGOS?",
+         "respuesta": "NO ESTÁN EN LA BIBLIA.",
+         "tipo": "M"
+
+     },
+     "BoQrhuQo9x45nRdBGOAy": {
+         "categoria": "GENERAL",
+         "pregunta": "¿LOS CATOLICOS ADORAN IMÁGENES?",
+         "respuesta": "FALSO",
+         "tipo": "VF"
+
+     },
+     "BwAXefmrDdDbf0oOKhEg": {
+         "categoria": "GENERAL",
+         "incorrecta1": "23",
+         "incorrecta2": "12",
+         "incorrecta3": "200",
+         "pregunta": "¿CUÁNTOS SON LOS SALMOS DEL SALTERIO?",
+         "respuesta": "150",
+         "tipo": "M"
+
+     },
+     "EVMJmcvwEHTvSSS1jqvE": {
+         "categoria": "NAVIDAD",
+         "incorrecta1": "NAZARET",
+         "incorrecta2": "ISRAEL",
+         "incorrecta3": "TODAS LAS ANTERIORES",
+         "pregunta": "JESUS NACE EN",
+         "respuesta": "BELEN",
+         "tipo": "M"
+
+     },
+     "EwIYKIouFXnD8CLxQiWV": {
+         "categoria": "CUARESMA",
+         "incorrecta1": "NAVIDAD",
+         "incorrecta2": "CORPUS CHRISTI",
+         "incorrecta3": "CARNAVAL",
+         "pregunta": "¿A QUÉ FESTIVIDAD PRECEDE LA CUARESMA?",
+         "respuesta": "PASCUA",
+         "tipo": "M"
+
+     },
+     "Fa8YgXaFqq3vfaYgualx": {
+         "categoria": "GENERAL",
+         "incorrecta1": "27",
+         "incorrecta2": "46",
+         "incorrecta3": "25",
+         "pregunta": "¿CUÁNTOS LIBROS TIENE LA BIBLIA CRISTIANA?",
+         "respuesta": "73",
+         "tipo": "M"
+
+     },
+     "Gw1ZKZZS7wBJMuDmmybG": {
+         "categoria": "GENERAL",
+         "incorrecta1": "LOS MILAGROS DE JESÚS",
+         "incorrecta2": "LA ENTRADA DE JESÚS EN JERUSALÉN",
+         "incorrecta3": "LA RESURRECCIÓN DE LÁZARO",
+         "pregunta": "¿QUÉ CELEBRAN LOS CATÓLICOS EN LA VIGILIA PASCUAL?",
+         "respuesta": "LA RESURRECCIÓN DE JESÚS",
+         "tipo": "M"
+
+     },
+     "IVjbneW3rUGSiP2E8ytk": {
+         "categoria": "GENERAL",
+         "incorrecta1": "ATROPELLADO",
+         "incorrecta2": "DE UN ACCIDENTE LABORAL",
+         "incorrecta3": "DE UN INFARTO",
+         "pregunta": "¿CÓMO MURIÓ JESÚS?",
+         "respuesta": "CRUCIFICADO",
+         "tipo": "M"
+
+     },
+     "IeMNpRH7Bo8wlBnDVUbB": {
+         "categoria": "GENERAL",
+         "incorrecta1": "JUAN XXIII",
+         "incorrecta2": "JUAN PABLO II",
+         "incorrecta3": "JUAN PABLO I",
+         "pregunta": "¿QUÉ PAPA CLAUSURÓ EL CONCILIO VATICANO II?",
+         "respuesta": "PABLO VI",
+         "tipo": "M"
+
+     },
+     "JFZLLkP59UYBFgRBbd3h": {
+         "categoria": "GENERAL",
+         "incorrecta1": "CRISTIANO",
+         "incorrecta2": "CREYENTE",
+         "incorrecta3": "DEVOTO",
+         "pregunta": "¿QUÉ SIGNIFICA LA PALABRA CATÓLICO?",
+         "respuesta": "UNIVERSAL",
+         "tipo": "M"
+
+     },
+     "MJkNB1gLJQw1ACBEeiRQ": {
+         "categoria": "GENERAL",
+         "incorrecta1": "SEÑOR",
+         "incorrecta2": "ILUSTRÍSIMO",
+         "incorrecta3": "ALTÍSIMO",
+         "pregunta": "¿QUÉ PALABRA UTILIZABA JESÚS EN SU ORACIÓN PARA DIRIGIRSE A DIOS?",
+         "respuesta": "ABBA (PADRE)",
+         "tipo": "M"
+
+     },
+     "MgU7JWouab07RG2iGexk": {
+         "categoria": "ADVIENTO",
+         "incorrecta1": "CELESTE",
+         "incorrecta2": "BLANCO",
+         "incorrecta3": "ROJO",
+         "pregunta": "EL TERCER DOMINGO DE ADVIENTO, CONOCIDO COMO EL DOMINGO DE GAUDETE O DOMINGO DE LA ALEGRÍA: ¿QUÉ COLOR SE PUEDE USAR?",
+         "respuesta": "ROSADO",
+         "tipo": "M"
+
+     },
+     "MiqiZ8TFfNy4lQ1YlkyH": {
+         "categoria": "GENERAL",
+         "pregunta": "¿EN LA BIBLIA SE MENCIONA LA \"MANZANA\" EN EL RELATO DE ADAN Y EVA?",
+         "respuesta": "FALSO",
+         "tipo": "VF"
+
+     },
+     "NdzxkccSRzvXrZZHrjs2": {
+         "categoria": "GENERAL",
+         "incorrecta1": "SAN PABLO",
+         "incorrecta2": "SAN TIMOTEO",
+         "incorrecta3": "PAPA FRANCISCO",
+         "pregunta": "¿QUIÉN FUE EL PRIMER PAPA DE LA IGLESIA?",
+         "respuesta": "SAN PEDRO",
+         "tipo": "M"
+
+     },
+     "OhIdzOM9P0qCCN9qEO5V": {
+         "categoria": "GENERAL",
+         "pregunta": "¿TIENEN LOS CATÓLICOS ALGÚN DÍA DE AYUNO AL AÑO?",
+         "respuesta": "VERDADERO",
+         "tipo": "VF"
+
+     },
+     "Orqu01Twt82jFbWq9Vsx": {
+         "categoria": "ADVIENTO",
+         "pregunta": "¿EN ADVIENTO SE CANTA EL GLORIA?",
+         "respuesta": "FALSO",
+         "tipo": "VF"
+
+     },
+     "P2NT0jTZljGtvTj5J8pR": {
+         "categoria": "CUARESMA",
+         "pregunta": "¿EN CUARESMA RESUCITA JESÚS?",
+         "respuesta": "FALSO",
+         "tipo": "VF"
+
+     },
+     "PXUGW2f59pOGUI9qSahX": {
+         "categoria": "NAVIDAD",
+         "incorrecta1": "26 DE DICIEMBRE",
+         "incorrecta2": "24 DE DICIEMBRE",
+         "incorrecta3": "23 DE DICIEMBRE",
+         "pregunta": "¿CUÁNDO INICIA LA NAVIDAD?",
+         "respuesta": "25 DE DICIEMBRE",
+         "tipo": "M"
+
+     },
+     "PoZF0yEWgYp1mjWmInMR": {
+         "categoria": "GENERAL",
+         "pregunta": "EN LA BIBLIA EXISTE UN LIBRO LLAMADO \"BARUC\"",
+         "respuesta": "VERDADERO",
+         "tipo": "VF"
+
+     },
+     "PqRVpoRHO5cO1xH036YZ": {
+         "categoria": "ADVIENTO",
+         "incorrecta1": "26 DE DICIEMBRE",
+         "incorrecta2": "25 DE DICIEMBRE",
+         "incorrecta3": "23 DE DICIEMBRE",
+         "pregunta": "¿CUÁNDO CONCLUYE EL TIEMPO DE ADVIENTO?",
+         "respuesta": "24 DE DICIEMBRE",
+         "tipo": "M"
+
+     },
+     "QoyASpK6GDSwJMelWHdN": {
+         "categoria": "PASCUA",
+         "incorrecta1": "BENDICIÓN DEL FUEGO",
+         "incorrecta2": "BENDICIÓN DEL CIRIO PASCUAL",
+         "incorrecta3": "BENDICIÓN DEL AGUA BAUTISMAL",
+         "pregunta": "¿CUÁLES SON SÍMBOLOS DE LA VIGILIA?",
+         "respuesta": "TODAS LAS ANTERIORES",
+         "tipo": "M"
+
+     },
+     "Rp08mVcsMCKnJDPg4fWi": {
+         "categoria": "GENERAL",
+         "incorrecta1": "ADORAMOS",
+         "incorrecta2": "NINGUNA DE LAS ANTERIORES",
+         "incorrecta3": "TODAS LAS AANTERIORES",
+         "pregunta": "A LA VIRGEN MARIA LE",
+         "respuesta": "VENERAMOS",
+         "tipo": "M"
+
+     },
+     "SJdjWhgEOLWudJBdY6Ed": {
+         "categoria": "GENERAL",
+         "incorrecta1": "EVANGELIO DE LUCAS",
+         "incorrecta2": "CARTA A LOS ROMANOS",
+         "incorrecta3": "GÉNESIS",
+         "pregunta": "¿EN QUÉ LIBRO DE LA BIBLIA SE NOS CUENTAN LOS PRIMEROS PASOS DE LA COMUNIDAD CRISTIANA?",
+         "respuesta": "HECHOS DE LOS APÓSTOLES",
+         "tipo": "M"
+
+     },
+     "SURmI5iDu2BZmWYHcPVO": {
+         "categoria": "GENERAL",
+         "incorrecta1": "LA BONDAD DE DIOS",
+         "incorrecta2": "LA PALABRA DE DIOS",
+         "incorrecta3": "EL DESCANSO DE DIOS",
+         "pregunta": "¿QUÉ CELEBRAN LOS CATÓLICOS EL DOMINGO?",
+         "respuesta": "LA RESURRECCIÓN DE JESÚS",
+         "tipo": "M"
+
+     },
+     "Soq33Qm4S3GF6N4W0FHm": {
+         "categoria": "ADVIENTO",
+         "incorrecta1": "BLANCO",
+         "incorrecta2": "VERDE",
+         "incorrecta3": "ROJO",
+         "pregunta": "¿CUÁL ES EL COLOR QUE DISTINGUE A ESTE TIEMPO? (ADVIENTO)",
+         "respuesta": "MORADO",
+         "tipo": "M"
+
+     },
+     "TTeyKVIeV3lsWTrIRfht": {
+         "categoria": "GENERAL",
+         "incorrecta1": "MARTA",
+         "incorrecta2": "MAGDALENA",
+         "incorrecta3": "ISABEL",
+         "pregunta": "¿CÓMO SE LLAMA LA MADRE DE JESÚS?",
+         "respuesta": "MARÍA",
+         "tipo": "M"
+
+     },
+     "Td12PkIrBh4lLv8d82Xs": {
+         "categoria": "CUARESMA",
+         "incorrecta1": "14 DÍAS",
+         "incorrecta2": "4 DÍAS",
+         "incorrecta3": "44 DÍAS",
+         "pregunta": "¿CUÁNTO DURA LA CUARESMA?",
+         "respuesta": "40 DÍAS",
+         "tipo": "M"
+
+     },
+     "UXpJ3FwZuJq9SdYmSLb1": {
+         "categoria": "CUARESMA",
+         "incorrecta1": "SACRAMENTO DE LA RECONCILIACION",
+         "incorrecta2": "PEREGRINACIONES",
+         "incorrecta3": "VIA CRUCIS",
+         "pregunta": "EN CUARESMA ¿QUÉ SE PUEDE REALIZAR?",
+         "respuesta": "TODAS LAS ANTERIORES",
+         "tipo": "M"
+
+     },
+     "Vypv1akxMNosxXQWhcrz": {
+         "categoria": "GENERAL",
+         "incorrecta1": "18 AÑOS",
+         "incorrecta2": "73 AÑOS",
+         "incorrecta3": "45 AÑOS",
+         "pregunta": "JESUS MURIÓ A LOS",
+         "respuesta": "33 AÑOS",
+         "tipo": "M"
+
+     },
+     "W4PK5fvmjq2m2iyV6rrR": {
+         "categoria": "GENERAL",
+         "incorrecta1": "LA NAVIDAD NO ES UNA CELEBRACIÓN CRISTIANA",
+         "incorrecta2": "LA VENIDA DE UN AÑO NUEVO",
+         "incorrecta3": "LA MUERTE Y RESURRECCIÓN DE JESÚS",
+         "pregunta": "¿QUÉ CELEBRA LA IGLESIA CATÓLICA EN NAVIDAD?",
+         "respuesta": "EL NACIMIENTO DE CRISTO",
+         "tipo": "M"
+
+     },
+     "W4bp6xKyKu6BArhk9bIy": {
+         "categoria": "PASCUA",
+         "pregunta": "¿EL DIA VIERNES SANTO SE CELEBRA MISA?",
+         "respuesta": "FALSO",
+         "tipo": "VF"
+
+     },
+     "Wce06iUXzLVvAf8PHfNb": {
+         "categoria": "PASCUA",
+         "incorrecta1": "TRIUNFO REAL DE CRISTO",
+         "incorrecta2": "EL ANUNCIO DE LA PASIÓN",
+         "incorrecta3": "ENTRADA DEL SEÑOR EN JERUSALÉN",
+         "pregunta": "¿QUÉ CONMEMORAMOS EL DOMINGO DE RAMOS?",
+         "respuesta": "TODAS LAS ANTERIORES",
+         "tipo": "M"
+
+     },
+     "X64VirmVDNKMVcaMeMjY": {
+         "categoria": "NAVIDAD",
+         "incorrecta1": "FESTEJAR LA VIDA",
+         "incorrecta2": "LLAGADA DE PAPA NOEL",
+         "incorrecta3": "NINGUNA DE LAS ANTERIORES",
+         "pregunta": "¿QUE ES LA NAVIDAD?",
+         "respuesta": "NACIMIENTO DE JESUS",
+         "tipo": "M"
+
+     },
+     "XrzUKqWGlHw8DFtKXS8X": {
+         "categoria": "GENERAL",
+         "incorrecta1": "DOMINGO",
+         "incorrecta2": "LUNES",
+         "incorrecta3": "JUEVES",
+         "pregunta": "¿EN QUÉ DÍA DE LA SEMANA MURIÓ JESÚS?",
+         "respuesta": "VIERNES",
+         "tipo": "M"
+
+     },
+     "YC1oZ6Me7xlNmCxpaAzz": {
+         "categoria": "GENERAL",
+         "incorrecta1": "MATEO",
+         "incorrecta2": "PEDRO",
+         "incorrecta3": "PABLO",
+         "pregunta": "¿DE QUÉ PERSONAJE DEL NUEVO TESTAMENTO CONOCEMOS MÁS Y MEJOR?",
+         "respuesta": "JESÚS",
+         "tipo": "M"
+
+     },
+     "YFwuUWnHgSWCBB2UcKbT": {
+         "categoria": "GENERAL",
+         "incorrecta1": "TRES",
+         "incorrecta2": "NO HAY DIVISIONES",
+         "incorrecta3": "CUATRO",
+         "pregunta": "¿EN CUÁNTAS PARTES SE DIVIDE LA BIBLIA CRISTIANA?",
+         "respuesta": "DOS",
+         "tipo": "M"
+
+     },
+     "YNpOvDh94fZSI8DUjwR5": {
+         "categoria": "GENERAL",
+         "incorrecta1": "DE LAS TABLAS",
+         "incorrecta2": "LÍBANO",
+         "incorrecta3": "DE LA ALIANZA",
+         "pregunta": "¿QUÉ OTRO NOMBRE RECIBE EL MONTE SINAÍ EN LA BIBLIA?",
+         "respuesta": "HOREB",
+         "tipo": "M"
+
+     },
+     "YYgjDyYz06bNyWfDhw4C": {
+         "categoria": "NAVIDAD",
+         "incorrecta1": "EL EVANGELIO SEGÚN MARCOS",
+         "incorrecta2": "EL EVANGELIO SEGÚN JUAN",
+         "incorrecta3": "EL EVANGELIO SEGÚN LUCAS",
+         "pregunta": "¿CUÁL DE LOS LIBROS DE LA BIBLIA HABLA DEL INCIENSO, LA MIRRA Y EL ORO COMO REGALOS AL NIÑO DIOS?",
+         "respuesta": "EL EVANGELIO SEGÚN MATEO",
+         "tipo": "M"
+
+     },
+     "b8zlW9aXZYbq2dU8fwuq": {
+         "categoria": "NAVIDAD",
+         "incorrecta1": "EN REYES",
+         "incorrecta2": "EL 31 DE DICIEMBRE",
+         "incorrecta3": "TODAS LAS ANTERIORES",
+         "pregunta": "¿CUÁNDO CONCLUYE LA NAVIDAD?",
+         "respuesta": "CON EL BAUTISMO DEL SEÑOR",
+         "tipo": "M"
+
+     },
+     "bSatvJ48tXwei8AHIprv": {
+         "categoria": "GENERAL",
+         "incorrecta1": "EL CATECISMO",
+         "incorrecta2": "EL DICCIONARIO",
+         "incorrecta3": "DOCTRINA SOCIAL DE LA IGLESIA",
+         "pregunta": "¿CÓMO SE LLAMA EL LIBRO DONDE ESTÁ ESCRITA LA PALABRA DE DIOS?",
+         "respuesta": "LA BIBLIA",
+         "tipo": "M"
+
+     },
+     "fBF7idu0klKZk7WTMucn": {
+         "categoria": "GENERAL",
+         "incorrecta1": "8",
+         "incorrecta2": "9",
+         "incorrecta3": "NO HAY",
+         "pregunta": "¿CUÁNTOS SACRAMENTOS EXISTEN EN LA IGLESIA CATOLICA?",
+         "respuesta": "7",
+         "tipo": "M"
+
+     },
+     "gUbfUVSbSqq1U55W78KF": {
+         "categoria": "GENERAL",
+         "incorrecta1": "LAS CHOZAS",
+         "incorrecta2": "EL YONK KIPPUR",
+         "incorrecta3": "PENTECOSTÉS",
+         "pregunta": "¿QUÉ FIESTA CELEBRABAN LOS JUDÍOS CUANDO MURIÓ Y RESUCITÓ JESÚS?",
+         "respuesta": "LA PASCUA",
+         "tipo": "M"
+
+     },
+     "gzGMvrvwDYM4WEIK7jeP": {
+         "categoria": "PASCUA",
+         "incorrecta1": "LA RESURRECCIÓN DEL SEÑOR",
+         "incorrecta2": "CELEBRA CON LOS SACRAMENTOS DE LA INICIACIÓN CRISTIANA.",
+         "incorrecta3": "",
+         "pregunta": "DURANTE LA VIGILIA, LA IGLESIA ESPERA",
+         "respuesta": "TODAS LAS ANTERIORES",
+         "tipo": "M"
+
+     },
+     "hQUIwHi3H0SkeALDbomp": {
+         "categoria": "CUARESMA",
+         "incorrecta1": "POR LOS POBRES",
+         "incorrecta2": "POR LOS MENTIROSOS",
+         "incorrecta3": "POR LOS BUENOS",
+         "pregunta": "¿POR QUIÉNES REZA ESPECIALMENTE LA IGLESIA DURANTE LA CUARESMA?",
+         "respuesta": "POR LOS CATECÚMENOS Y POR LAS PERSONAS QUE HAN ABANDONADO LA IGLESIA",
+         "tipo": "M"
+
+     },
+     "hSQ8FRLsdphvf5rcNYhF": {
+         "categoria": "GENERAL",
+         "incorrecta1": "DESMAYARSE",
+         "incorrecta2": "BUSCAR ALGO CON PERSEVERANCIA",
+         "incorrecta3": "",
+         "pregunta": "¿EN QUÉ CONSISTE EL AYUNO?",
+         "respuesta": "ABSTENERSE DE COMER O/Y BEBER",
+         "tipo": "M"
+
+     },
+     "iiHiJuroLOtPsN28KMUe": {
+         "categoria": "GENERAL",
+         "incorrecta1": "NÚMERO MÁGICO",
+         "incorrecta2": "LA PLENITUD",
+         "incorrecta3": "LA TRINIDAD",
+         "pregunta": "¿QUÉ SIMBOLIZA GENERALMENTE EL NÚMERO CUARENTA EN LA BIBLIA?\"",
+         "respuesta": "TIEMPO DE PREPARACIÓN",
+         "tipo": "M"
+
+     },
+     "lUjqWzjM3f4QaBINcZUN": {
+         "categoria": "GENERAL",
+         "pregunta": "¿ES EL BHAGAVAD GITA UN LIBRO CRISTIANO?",
+         "respuesta": "FALSO",
+         "tipo": "VF"
+
+     },
+     "mvIwX7FIXoXrmfQL6jRH": {
+         "categoria": "GENERAL",
+         "pregunta": "¿HAY QUE INTERPRETAR TODA LA BIBLIA AL PIE DE LA LETRA?",
+         "respuesta": "FALSO",
+         "tipo": "VF"
+
+     },
+     "nGtyFVN9mmAhqHn5loL4": {
+         "categoria": "GENERAL",
+         "incorrecta1": "EL ÉXODO",
+         "incorrecta2": "EL EVANGELIO DE SAN MATEO",
+         "incorrecta3": "EL DEUTERONOMIO",
+         "pregunta": "EL PRIMER LIBRO DE LA BIBLIA ES",
+         "respuesta": "EL GÉNESIS",
+         "tipo": "M"
+
+     },
+     "nPOrEx4Zz4yAw7j3uV5f": {
+         "categoria": "GENERAL",
+         "incorrecta1": " LA \"SUBIDA\" DE JESÚS A JERUSALÉN",
+         "incorrecta2": "LA SUBIDA DE LA VIRGEN MARÍA AL CIELO",
+         "incorrecta3": "LA VENIDA DEL ESPÍRITU SANTO",
+         "pregunta": "EN LA FIESTA DE LA ASCENSIÓN SE CELEBRA",
+         "respuesta": "LA SUBIDA DE JESÚS AL CIELO 40 DÍAS DESPUÉS DE SU RESURRECCIÓN",
+         "tipo": "M"
+
+     },
+     "o4MXC5oaJLTqUTjBQSsh": {
+         "categoria": "GENERAL",
+         "incorrecta1": "QUE LA VIRGEN MARÍA NACIÓ SIN PECADO ORIGINAL",
+         "incorrecta2": "LA SUBIDA DE LA VIRGEN A LOS CIELOS",
+         "incorrecta3": "",
+         "pregunta": "¿QUÉ CELEBRAN LOS CATÓLICOS EN LA FIESTA DE LA INMACULADA CONCEPCIÓN?",
+         "respuesta": "QUE LA VIRGEN MARÍA NO TUVO RELACIONES CARNALES PARA QUE NACIERA JESÚS",
+         "tipo": "M"
+
+     },
+     "oak0HnNo2gICg9feYxCC": {
+         "categoria": "GENERAL",
+         "incorrecta1": "BETANIA",
+         "incorrecta2": "NAZARET",
+         "incorrecta3": "BELÉN",
+         "pregunta": "¿QUÉ CIUDAD CERCANA A JERUSALÉN VIO CAER SUS MURALLAS AL SON DE LAS TROMPETAS DE JOSUÉ?",
+         "respuesta": "JERICO",
+         "tipo": "M"
+
+     },
+     "oj3XligQHLiNxMR5WWDY": {
+         "categoria": "GENERAL",
+         "incorrecta1": "FRACCION DEL PAN",
+         "incorrecta2": "EUCARISTIA",
+         "incorrecta3": "BANQUETE",
+         "pregunta": "LA MISA TIENE OTROS NOMBRES COMO",
+         "respuesta": "TODAS LAS ANTERIORES",
+         "tipo": "M"
+
+     },
+     "op2gg4gwMqK4Q8iqSwU9": {
+         "categoria": "CUARESMA",
+         "incorrecta1": "DOMINDO DE PASCUA",
+         "incorrecta2": "JUEVES SANTO",
+         "incorrecta3": "VIERNES SANTO",
+         "pregunta": "¿CUÁNDO COMIENZA LA CUARESMA?",
+         "respuesta": "EL MIÉRCOLES DE CENIZA",
+         "tipo": "M"
+
+     },
+     "pno1Lg7puUaE3faHTM4Z": {
+         "categoria": "GENERAL",
+         "incorrecta1": "ISAAC",
+         "incorrecta2": "ABEL",
+         "incorrecta3": "ISMAEL",
+         "pregunta": "¿QUÉ OTRO NOMBRE RECIBE JACOB EN LA BIBLIA?",
+         "respuesta": "ISRAEL",
+         "tipo": "M"
+
+     },
+     "ptG8hBV7aEgH9rt0fCf7": {
+         "categoria": "GENERAL",
+         "incorrecta1": "7",
+         "incorrecta2": "12",
+         "incorrecta3": "73",
+         "pregunta": "LOS DISCÍPULOS DE JESÚS ERAN",
+         "respuesta": "MUCHOS",
+         "tipo": "M"
+
+     },
+     "qZWleTcFrmbo2XsEWo6A": {
+         "categoria": "ADVIENTO",
+         "incorrecta1": "TIEMPO PARA PREPARARNOS PARA LA ASCENCION",
+         "incorrecta2": "TIEMPO PARA PREPARARNOS PARA LA RESURECCIÓN",
+         "incorrecta3": "TODAS LAS ANTERIORES",
+         "pregunta": "EL ADVIENTO ES TIEMPO DE",
+         "respuesta": "TIEMPO PARA PREPARARNOS PARA LA NAVIDAD",
+         "tipo": "M"
+
+     },
+     "rWZrIV1wQ3PlzZpYh4Gd": {
+         "categoria": "GENERAL",
+         "incorrecta1": "MACEDONIA",
+         "incorrecta2": "PERSÉPOLIS",
+         "incorrecta3": "LA ODISEA",
+         "pregunta": "¿CÓMO SE LLAMA EL LUGAR DONDE EL APOCALIPSIS NOS HABLA DE UNA BATALLA FINAL?",
+         "respuesta": "ARMAGEDÓN",
+         "tipo": "M"
+
+     },
+     "rclybT1eHbD6Thg4aAsG": {
+         "categoria": "CUARESMA",
+         "incorrecta1": "AMARILLO",
+         "incorrecta2": "AZUL",
+         "incorrecta3": "BLANCO",
+         "pregunta": "¿QUÉ COLOR TIENE EN LA LITURGIA DE CUARESMA?",
+         "respuesta": "MORADO",
+         "tipo": "M"
+
+     },
+     "rePrAKVktJovwO5pN372": {
+         "categoria": "GENERAL",
+         "incorrecta1": "AYUNAR",
+         "incorrecta2": "PREPARARSE PARA LA PASCUA",
+         "incorrecta3": "PREPARARSE PARA LA RESURRECCIÓN",
+         "pregunta": "¿QUÉ SE HACE EN EL ADVIENTO?",
+         "respuesta": "PREPARARSE PARA LA NAVIDAD",
+         "tipo": "M"
+
+     },
+     "ronB9Mo9WpTC6UpifmFo": {
+         "categoria": "CUARESMA",
+         "incorrecta1": "COMER CARNE",
+         "incorrecta2": "CONFESARSE",
+         "incorrecta3": "LA SANTA COMUNIÓN",
+         "pregunta": "¿QUÉ DEBEN HACER LOS CATÓLICOS MAYORES DE 14 AÑOS LOS VIERNES DURANTE LA CUARESMA?",
+         "respuesta": "ABSTENERSE DE COMER CARNE",
+         "tipo": "M"
+
+     },
+     "t7zyRhdtfLQDTeQ4FjHB": {
+         "categoria": "GENERAL",
+         "incorrecta1": "JACOB",
+         "incorrecta2": "ISRAEL",
+         "incorrecta3": "ISAAC",
+         "pregunta": "EL HIJO DE ABRAHAM CONSIDERADO EL ANTEPASADO COMÚN DE LOS ÁRABES SE LLAMA:",
+         "respuesta": "ISMAEL",
+         "tipo": "M"
+
+     },
+     "tUv4hSDb3H4qfkq90Xvb": {
+         "categoria": "NAVIDAD",
+         "incorrecta1": "PORQUE ASÍ LO HABÍAN ANUNCIADO LOS PROFETAS.",
+         "incorrecta2": "PORQUE JOSÉ, SU PADRE PUTATIVO, TENÍA QUE SER CENSADO EN SU TIERRA NATAL.",
+         "incorrecta3": "PORQUE YA SE ENCONTRABAN EN BELÉN AL MOMENTO DE SU NACIMIENTO",
+         "pregunta": "¿POR QUÉ JESÚS NACIÓ EN BELÉN?",
+         "respuesta": "LAS TRES ANTERIORES.",
+         "tipo": "M"
+
+     },
+     "td8MVny51tJZBNcDteZJ": {
+         "categoria": "GENERAL",
+         "incorrecta1": "MACABEOS",
+         "incorrecta2": "GÉNESIS",
+         "incorrecta3": "ÉXODO",
+         "pregunta": "EL ÚLTIMO LIBRO DE LA BIBLIA SE LLAMA",
+         "respuesta": "APOCALIPSIS",
+         "tipo": "M"
+
+     },
+     "uIscvVuErL3rZHaZ3uNm": {
+         "categoria": "GENERAL",
+         "incorrecta1": "LA VIRGEN",
+         "incorrecta2": "LA IGLESIA",
+         "incorrecta3": "EL PAPA",
+         "pregunta": "¿QUÉ ES LO MÁS IMPORTANTE DE LA FE DE LOS CATÓLICOS?",
+         "respuesta": "LA RESURRECCIÓN DE JESÚS",
+         "tipo": "M"
+
+     },
+     "uV4NhErhc6s0nUoVjfM4": {
+         "categoria": "PASCUA",
+         "incorrecta1": "LA RESURECCIÓN",
+         "incorrecta2": "LA MUERTE DE CRISTO",
+         "incorrecta3": "NINGUNA DE LAS ANTERIORES",
+         "pregunta": "¿QUÉ SE CELEBRA EL JUEVES SANTO?",
+         "respuesta": "LA ÚLTIMA CENA",
+         "tipo": "M"
+
+     },
+     "udbsjp9X9VVRM8l2DXU6": {
+         "categoria": "NAVIDAD",
+         "incorrecta1": "EL SEÑOR ESTÁ CONTIGO.",
+         "incorrecta2": "EL SEÑOR DE LOS ANILLOS.",
+         "incorrecta3": "SIMPLEMENTE SEÑOR",
+         "pregunta": "¿QUÉ SIGNIFICA EL NOMBRE JESÚS (FORMA GRIEGA DEL NOMBRE HEBREO JOSUÉ)?",
+         "respuesta": "EL SEÑOR SALVA.",
+         "tipo": "M"
+
+     },
+     "ujiqZPSLbMwEUBLNjlW5": {
+         "categoria": "ADVIENTO",
+         "incorrecta1": "TODAS CUANDO INICIE EL ADVIENTO",
+         "incorrecta2": "NO SE ENCIENDEN",
+         "incorrecta3": "AL FINAL DEL ADVIENTO",
+         "pregunta": "¿CUÁNDO SE ENCIENDE LAS VELAS DE LA CORONA DE ADVIENTO?",
+         "respuesta": "UN VELA CADA DOMINGO DE ADVIENTO",
+         "tipo": "M"
+
+     },
+     "v2qokEHppn0MN4Pqi5dt": {
+         "categoria": "GENERAL",
+         "incorrecta1": "JOSUÉ",
+         "incorrecta2": "JACOB",
+         "incorrecta3": "NOÉ",
+         "pregunta": "¿QUIÉN ERA EL PADRE DEL REY SALOMÓN?",
+         "respuesta": "DAVID",
+         "tipo": "M"
+
+     },
+     "vxg9snvvTn8KyvdkBwRg": {
+         "categoria": "PASCUA",
+         "incorrecta1": "JESÚS MUERE",
+         "incorrecta2": "SALEN MUCHAS PROCESIONES",
+         "incorrecta3": "JESUS ES CRUCIFICADO",
+         "pregunta": "EL DOMINGO DE RESURRECCIÓN O PASCUA ES EL DÍA MÁS IMPORTANTE ¿POR QUÉ?",
+         "respuesta": "JESÚS VENCE A LA MUERTE Y VIVE PARA SIEMPRE",
+         "tipo": "M"
+
+     },
+     "yU26EAYLI74uzwqXJPRL": {
+         "categoria": "GENERAL",
+         "incorrecta1": "TEODOSIO",
+         "incorrecta2": "CÉSAR",
+         "incorrecta3": "RÓMULO",
+         "pregunta": "¿QUÉ EMPERADOR ROMANO DIO LIBERTAD DE CULTO AL CRISTIANISMO EN EL AÑO 313?",
+         "respuesta": "CONSTANTINO",
+         "tipo": "M"
+
+     },
+     "zOHEQLDd97NHFPWPBxBA": {
+         "categoria": "ADVIENTO",
+         "pregunta": "EL PRIMER DOMINGO DE ADVIENTO ES EL PRIMER DÍA DEL NUEVO AÑO LITÚRGICO",
+         "respuesta": "VERDADERO",
+         "tipo": "VF"
+
+     }
+ }

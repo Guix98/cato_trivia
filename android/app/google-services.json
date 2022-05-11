@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785670252574",
+    "project_id": "cato-trivia",
+    "storage_bucket": "cato-trivia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785670252574:android:88720175e3c082adb0a60f",
+        "android_client_info": {
+          "package_name": "com.example.cato_trivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785670252574-0l0mlllvfbnl27ei64nhfmj8gg4bi5h5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI1ZyFuzNzpkWBEUV0PDoTXHzCUu3th3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785670252574-0l0mlllvfbnl27ei64nhfmj8gg4bi5h5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

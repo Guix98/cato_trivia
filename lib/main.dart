@@ -1,3 +1,4 @@
+import 'package:cato_trivia/controllers/quizz_controller.dart';
 import 'package:cato_trivia/routes/routes.dart' as routes;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -8,7 +9,19 @@ void main() async {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
+  @override
+  void initState() {
+    WidgetsBinding.instance!.addObserver(this);
+    Get.put<QuizzController>(QuizzController());
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
