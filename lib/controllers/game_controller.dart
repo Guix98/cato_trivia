@@ -12,4 +12,5 @@ class GameController extends GetxController {
     rightAnswers = 0;
     wrongAnswers = 0;
   }
+  //correcta: +10   incorrecta -5
 }
