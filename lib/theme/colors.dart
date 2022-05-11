@@ -21,3 +21,8 @@ const grey3 = Color(0xFFCCCCCC);
 const grey4 = Color(0xFFE6E6E6);
 const grey5 = Color(0xFFEFEEFC);
 const white = Color(0xFFFFFFFF);
+
+
+//Question
+const green=Color(0xFF41E241);
+const red=Color(0xFFF17F7F);

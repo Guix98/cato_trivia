@@ -11,11 +11,7 @@ class QuizzController extends GetxController {
   // set obj(value) => this._obj.value = value;
   // get obj => this._obj.value;
   List<Question> questionsList = [];
-  List<Question> generalList = [];
-  List<Question> advientoList = [];
-  List<Question> pascuaList = [];
-  List<Question> navidadList = [];
-  List<Question> cuaresmaList = [];
+  List<Question> categoryQuestionList = [];
 
   @override
   void onInit() {
@@ -31,7 +27,7 @@ class QuizzController extends GetxController {
   }
 
   void loadGeneral() {
-    generalList = [];
+    categoryQuestionList = [];
     List<Question> generales = questionsList
         .where((question) => question.categoria == 'GENERAL')
         .toList();
@@ -40,30 +36,30 @@ class QuizzController extends GetxController {
       ..shuffle();
 
     for (var i = 0; i < 10; i++) {
-      generalList.add(generales[randomPicker[i] - 1]);
+      categoryQuestionList.add(generales[randomPicker[i] - 1]);
     }
   }
 
   void loadAdviento() {
-    advientoList = questionsList
+    categoryQuestionList = questionsList
         .where((question) => question.categoria == 'ADVIENTO')
         .toList();
   }
 
   void loadPascua() {
-    advientoList = questionsList
+    categoryQuestionList = questionsList
         .where((question) => question.categoria == 'PASCUA')
         .toList();
   }
 
   void loadNavidad() {
-    advientoList = questionsList
+    categoryQuestionList = questionsList
         .where((question) => question.categoria == 'NAVIDAD')
         .toList();
   }
 
   void loadCuaresma() {
-    advientoList = questionsList
+    categoryQuestionList = questionsList
         .where((question) => question.categoria == 'CUARESMA')
         .toList();
   }

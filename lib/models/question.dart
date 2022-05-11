@@ -20,7 +20,10 @@ class Question {
     required this.pregunta,
     required this.respuesta,
     required this.tipo,
-  });
+  }){
+    opciones=[if(this.incorrecta1!="")this.incorrecta1,if(this.incorrecta2!="")this.incorrecta2,if(this.incorrecta3!="")this.incorrecta3,this.respuesta];
+    opciones.shuffle();
+  }
 
   String categoria;
   String incorrecta1;
@@ -28,6 +31,7 @@ class Question {
   String incorrecta3;
   String pregunta;
   String respuesta;
+  List<String> opciones=[];
   String tipo;
 
   factory Question.fromJson(Map<String, dynamic> json) => Question(
@@ -39,6 +43,7 @@ class Question {
         respuesta: json["respuesta"],
         tipo: json["tipo"],
       );
+
 
   Map<String, dynamic> toJson() => {
         "categoria": categoria,
