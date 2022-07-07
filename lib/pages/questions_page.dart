@@ -1,5 +1,6 @@
 import 'package:cato_trivia/components/bottom_nav_layout.dart';
 import 'package:cato_trivia/components/white_card.dart';
+import 'package:cato_trivia/controllers/achievments_controller.dart';
 import 'package:cato_trivia/controllers/game_controller.dart';
 import 'package:cato_trivia/controllers/quizz_controller.dart';
 import 'package:flutter/cupertino.dart';
@@ -172,6 +173,8 @@ class QuestionsPage extends StatelessWidget {
 class FinishPage extends StatelessWidget {
   final GameController _gameController = Get.find();
   final QuizzController _quizzController = Get.find();
+  final AchievmentsController _achievmentsController =
+      Get.put<AchievmentsController>(AchievmentsController());
   FinishPage({Key? key}) : super(key: key);
 
   @override
@@ -238,7 +241,11 @@ class FinishPage extends StatelessWidget {
                     middleText:
                         'Desbloqueaste la insignia de la categoría ${_gameController.category}',
                     confirm: TextButton(
-                        onPressed: (() => Get.close(2)),
+                        onPressed: (() {
+                          Get.close(2);
+                          _achievmentsController.setAchievment(
+                              _gameController.category.toLowerCase());
+                        }),
                         child: Text('Aceptar')));
               } else {
                 Get.back();
