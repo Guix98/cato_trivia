@@ -81,19 +81,41 @@ class HomePage extends StatelessWidget {
                     title: 'Que santo se recuerda hoy?',
                     subtitle: 'Averigua con el calendario',
                     onClick: () {
-                      Get.to(SaintOfTheDayWebPage(),
+                      Get.to(
+                          SaintOfTheDayWebPage(
+                            title: 'Santo del día',
+                            url: 'https://www.vaticannews.va/es/santos.html',
+                          ),
                           transition: Transition.zoom);
                     },
                   ),
                   ExtrasContainer(
-                    title: 'Las misas del Vaticano',
+                    title: 'La Santa Misa',
                     subtitle: 'Visita la última misa en Youtube',
-                    onClick: () {},
+                    onClick: () {
+                      Get.to(
+                          SaintOfTheDayWebPage(
+                            title: 'Diakonía',
+                            url:
+                                'https://www.youtube.com/c/DiakoniaConferenciaEpiscopalBoliviana/videos',
+                          ),
+                          transition: Transition.zoom);
+                    },
                   ),
                   ExtrasContainer(
-                    title: 'Hoja Dominical',
-                    subtitle: 'Descarga la hoja dominical de esta semana',
-                    onClick: () {},
+                    title: 'Ordinario de la misa',
+                    subtitle: 'Infórmate sobre la misa',
+                    onClick: () {
+                      Get.to(
+                          SaintOfTheDayWebPage(
+                            title: 'Ordinario',
+                            url: 'http://curas.com.ar/Misal3/Misas3/Mway2.htm',
+                          ),
+                          transition: Transition.zoom);
+                    },
+                  ),
+                  SizedBox(
+                    height: 10,
                   ),
                 ],
               ),

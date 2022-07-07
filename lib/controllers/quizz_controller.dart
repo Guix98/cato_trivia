@@ -22,7 +22,6 @@ class QuizzController extends GetxController {
   Future<String> loadJsonData() async {
     var jsonText = await rootBundle.loadString('assets/preguntas.json');
     questionsList = questionFromJson(jsonText);
-    loadGeneral();
     return 'success';
   }
 

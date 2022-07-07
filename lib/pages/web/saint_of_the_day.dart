@@ -4,6 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class SaintOfTheDayWebPage extends StatefulWidget {
+  final String url;
+  final String title;
+
+  const SaintOfTheDayWebPage({Key? key, required this.url, required this.title})
+      : super(key: key);
   @override
   State<SaintOfTheDayWebPage> createState() => _SaintOfTheDayWebPageState();
 }
@@ -21,10 +26,10 @@ class _SaintOfTheDayWebPageState extends State<SaintOfTheDayWebPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Santo del día'),
+        title: Text(widget.title),
       ),
       body: WebView(
-        initialUrl: 'https://www.vaticannews.va/es/santos.html',
+        initialUrl: widget.url,
         javascriptMode: JavascriptMode.unrestricted,
       ),
     );

@@ -21,33 +21,28 @@ class CategoriesPage extends StatelessWidget {
             CategoryContainer(
                 icon: SvgPicture.asset('assets/svg/teology.svg'),
                 name: 'General',
-                questionsQuantity: 50,
+                questionsQuantity: 10,
                 color: Color(0xff88E2CE)),
             CategoryContainer(
                 icon: SvgPicture.asset('assets/svg/bible.svg'),
-                name: 'Biblia',
-                questionsQuantity: 50,
+                name: 'Adviento',
+                questionsQuantity: 10,
                 color: colors.dullLavender),
             CategoryContainer(
                 icon: SvgPicture.asset('assets/svg/history.svg'),
-                name: 'Historia',
-                questionsQuantity: 50,
+                name: 'Cuaresma',
+                questionsQuantity: 10,
                 color: colors.pinkSalmon),
             CategoryContainer(
                 icon: SvgPicture.asset('assets/svg/traditions.svg'),
-                name: 'Costumbres',
-                questionsQuantity: 50,
+                name: 'Navidad',
+                questionsQuantity: 10,
                 color: Color(0xff7491F6)),
             CategoryContainer(
                 icon: SvgPicture.asset('assets/svg/teology.svg'),
-                name: 'Teología',
-                questionsQuantity: 50,
+                name: 'Pascua',
+                questionsQuantity: 10,
                 color: Color(0xff88E2CE)),
-            CategoryContainer(
-                icon: SvgPicture.asset('assets/svg/cross.svg'),
-                name: 'Santos y personajes',
-                questionsQuantity: 50,
-                color: colors.pinkSalmon),
           ],
         ),
       ),
@@ -72,7 +67,9 @@ class CategoryContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Get.to(() => QuestionsPage());
+        Get.to(() => QuestionsPage(
+              category: name,
+            ));
       },
       child: Container(
         margin: EdgeInsets.all(10),

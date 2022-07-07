@@ -41,11 +41,13 @@ class ExtrasContainer extends StatelessWidget {
                 Text(
                   title,
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
+                  overflow: TextOverflow.ellipsis,
                 ),
                 SizedBox(height: 20),
                 Text(
                   subtitle,
                   style: TextStyle(fontSize: 12),
+                  overflow: TextOverflow.ellipsis,
                 ),
               ],
             ),
