@@ -38,9 +38,9 @@ class BottomNavLayout extends StatelessWidget {
           : ConvexAppBar(
               items: [
                 TabItem(icon: Icons.home),
-                TabItem(icon: Icons.search),
+                TabItem(icon: SizedBox()),
                 TabItem(icon: Icons.play_arrow_rounded),
-                TabItem(icon: Icons.leaderboard),
+                TabItem(icon: SizedBox()),
                 TabItem(icon: Icons.person_outline_rounded),
               ],
               initialActiveIndex: bottomIndex,

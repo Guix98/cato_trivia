@@ -1,5 +1,6 @@
 import 'package:cato_trivia/components/double_circle.dart';
 import 'package:cato_trivia/components/extras_container.dart';
+import 'package:cato_trivia/controllers/achievments_controller.dart';
 import 'package:cato_trivia/icons/leaderboard_icon.dart';
 import 'package:cato_trivia/pages/categories_page.dart';
 import 'package:cato_trivia/pages/profile_page.dart';
@@ -32,7 +33,7 @@ class HomePage extends StatelessWidget {
             bottom: PreferredSize(
                 preferredSize: Size.fromHeight(0),
                 child: AppBar(
-                  title: Text('Guido Hernani',
+                  title: Text('Cato Trivia',
                       style: GoogleFonts.rubik(fontWeight: FontWeight.w600)),
                   elevation: 0,
                   actions: [
@@ -44,6 +45,7 @@ class HomePage extends StatelessWidget {
                       ),
                     )
                   ],
+                  centerTitle: true,
                 )),
           ),
           SliverList(
@@ -126,9 +128,9 @@ class HomePage extends StatelessWidget {
       bottomNavigationBar: ConvexAppBar(
         items: [
           TabItem(icon: Icons.home),
-          TabItem(icon: Icons.search),
+          TabItem(icon: SizedBox()),
           TabItem(icon: Icons.play_arrow_rounded),
-          TabItem(icon: Icons.leaderboard),
+          TabItem(icon: SizedBox()),
           TabItem(icon: Icons.person_outline_rounded),
         ],
         initialActiveIndex: 0,
@@ -195,7 +197,7 @@ class FeaturedContainer extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'DESTACADAS',
+                    'BIENVENIDO',
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.w500,
@@ -203,7 +205,7 @@ class FeaturedContainer extends StatelessWidget {
                   ),
                   SizedBox(height: 20),
                   Text(
-                    'Revisa el scoreboard y compite por el mejor puntaje con tus amigos',
+                    'Juega los diferentes cuestionarios para desbloquear insignias',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.white,
@@ -215,15 +217,19 @@ class FeaturedContainer extends StatelessWidget {
                   Container(
                     width: 150,
                     child: ElevatedButton.icon(
-                        onPressed: () {},
-                        icon: LeaderboardIcon(
-                          width: 30,
+                        onPressed: () {
+                          Get.to(() => CategoriesPage(),
+                              transition: Transition.fadeIn);
+                        },
+                        icon: Icon(
+                          Icons.play_circle,
+                          color: colors.dullLavender,
                         ),
                         label: Container(
                           height: 35,
                           child: Center(
                             child: Text(
-                              'Scoreboard',
+                              'Jugar',
                               style: TextStyle(
                                   color: colors.royalBlue,
                                   fontWeight: FontWeight.w600),
@@ -247,7 +253,8 @@ class FeaturedContainer extends StatelessWidget {
 }
 
 class RecentQuizzContainer extends StatelessWidget {
-  const RecentQuizzContainer({Key? key, required final String icon})
+  final AchievmentsController _achievmentsController = Get.find();
+  RecentQuizzContainer({Key? key, required final String icon})
       : super(key: key);
 
   @override
@@ -266,7 +273,7 @@ class RecentQuizzContainer extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'RECENT QUIZ',
+                'PROGRSO TOTAL',
                 style: TextStyle(
                     color: Color(0xff660012),
                     fontWeight: FontWeight.w500,
@@ -279,7 +286,7 @@ class RecentQuizzContainer extends StatelessWidget {
                     color: Color(0xff660012),
                   ),
                   Text(
-                    'La Biblia',
+                    _achievmentsController.progressDescription,
                     style: TextStyle(
                         color: Color(0xff660012),
                         fontWeight: FontWeight.w700,
@@ -293,8 +300,8 @@ class RecentQuizzContainer extends StatelessWidget {
           CircularPercentIndicator(
             radius: 50.0,
             lineWidth: 10,
-            percent: 0.56,
-            center: Text('56%'),
+            percent: _achievmentsController.totalProgress() / 100,
+            center: Text('${_achievmentsController.totalProgress()}%'),
             progressColor: colors.pinkSalmon,
             backgroundColor: Colors.transparent,
           )
