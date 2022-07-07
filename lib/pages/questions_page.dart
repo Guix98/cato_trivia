@@ -36,18 +36,23 @@ class QuestionsPage extends StatelessWidget {
     switch (category.toLowerCase()) {
       case 'general':
         _quizzController.loadGeneral();
+        _gameController.category = 'general';
         break;
       case 'adviento':
         _quizzController.loadAdviento();
+        _gameController.category = 'adviento';
         break;
       case 'cuaresma':
         _quizzController.loadCuaresma();
+        _gameController.category = 'cuaresma';
         break;
       case 'navidad':
         _quizzController.loadNavidad();
+        _gameController.category = 'navidad';
         break;
       case 'pascua':
         _quizzController.loadPascua();
+        _gameController.category = 'pascua';
         break;
 
       default:
@@ -227,7 +232,17 @@ class FinishPage extends StatelessWidget {
                     fontSize: 18,
                     color: colors.white)),
             onPressed: () {
-              Get.back();
+              if (_gameController.score == 100) {
+                Get.defaultDialog(
+                    title: 'Felicidades',
+                    middleText:
+                        'Desbloqueaste la insignia de la categoría ${_gameController.category}',
+                    confirm: TextButton(
+                        onPressed: (() => Get.close(2)),
+                        child: Text('Aceptar')));
+              } else {
+                Get.back();
+              }
             },
           ),
         ],
@@ -376,7 +391,7 @@ class QuizInitPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Comenzar Test de: \nGeneral',
+                  'Comenzar Test de: \n${_gameController.category.capitalizeFirst}',
                   textAlign: TextAlign.start,
                   style: GoogleFonts.rubik(
                       fontWeight: FontWeight.w600, fontSize: 18),
@@ -412,12 +427,19 @@ class QuizInitPage extends StatelessWidget {
 }
 
 class QuizzDescription extends StatelessWidget {
-  const QuizzDescription({
+  final GameController _gameController = Get.find();
+  QuizzDescription({
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    String description =
+        'Este es un quizz sobre cultura general de la Iglesia Católica, las preguntas tienen una dificultad variable y sumarán un total de 100 puntos si logras responder todas correctamente, buena suerte!';
+    if (_gameController.category != 'general') {
+      description =
+          'Este es un quizz sobre ${_gameController.category}, las preguntas tienen una dificultad variable y sumarán un total de 100 puntos si logras responder todas correctamente, buena suerte!';
+    }
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -429,7 +451,7 @@ class QuizzDescription extends StatelessWidget {
         ),
         SizedBox(height: 15),
         Text(
-          'Este es un quizz sobre cultura general de la Iglesia Católica, las preguntas tienen una dificultad fácil y sumarán un total de 100 puntos si logras responder todas correctamente, buena suerte!',
+          description,
           textAlign: TextAlign.justify,
           style: GoogleFonts.rubik(
             fontWeight: FontWeight.w400,

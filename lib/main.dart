@@ -1,3 +1,4 @@
+import 'package:cato_trivia/controllers/achievments_controller.dart';
 import 'package:cato_trivia/controllers/quizz_controller.dart';
 import 'package:cato_trivia/routes/routes.dart' as routes;
 import 'package:flutter/material.dart';
@@ -19,6 +20,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   void initState() {
     WidgetsBinding.instance!.addObserver(this);
     Get.put<QuizzController>(QuizzController());
+    Get.put<AchievmentsController>(AchievmentsController());
     super.initState();
   }
 

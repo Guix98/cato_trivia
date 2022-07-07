@@ -24,22 +24,22 @@ class CategoriesPage extends StatelessWidget {
                 questionsQuantity: 10,
                 color: Color(0xff88E2CE)),
             CategoryContainer(
-                icon: SvgPicture.asset('assets/svg/bible.svg'),
+                icon: SvgPicture.asset('assets/svg/candle.svg'),
                 name: 'Adviento',
                 questionsQuantity: 10,
                 color: colors.dullLavender),
             CategoryContainer(
-                icon: SvgPicture.asset('assets/svg/history.svg'),
+                icon: SvgPicture.asset('assets/svg/cross.svg'),
                 name: 'Cuaresma',
                 questionsQuantity: 10,
                 color: colors.pinkSalmon),
             CategoryContainer(
-                icon: SvgPicture.asset('assets/svg/traditions.svg'),
+                icon: SvgPicture.asset('assets/svg/navidad.svg'),
                 name: 'Navidad',
                 questionsQuantity: 10,
                 color: Color(0xff7491F6)),
             CategoryContainer(
-                icon: SvgPicture.asset('assets/svg/teology.svg'),
+                icon: SvgPicture.asset('assets/svg/traditions.svg'),
                 name: 'Pascua',
                 questionsQuantity: 10,
                 color: Color(0xff88E2CE)),
