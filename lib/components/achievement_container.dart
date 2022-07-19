@@ -1,11 +1,13 @@
 import 'package:cato_trivia/components/user_achievement.dart';
 import 'package:cato_trivia/components/white_card.dart';
+import 'package:cato_trivia/controllers/achievments_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:cato_trivia/theme/colors.dart' as colors;
 
 class AchievementsContainer extends StatelessWidget {
-  const AchievementsContainer({
+  final AchievmentsController _achievmentsController = Get.find();
+  AchievementsContainer({
     Key? key,
   }) : super(key: key);
 
@@ -23,7 +25,7 @@ class AchievementsContainer extends StatelessWidget {
           UserAchievement(
             name: 'Puntos',
             icon: Icons.star_border_rounded,
-            value: 100,
+            value: _achievmentsController.totalProgress() * 5,
           ),
           VerticalDivider(
             width: 0,
@@ -32,22 +34,22 @@ class AchievementsContainer extends StatelessWidget {
             indent: 15,
             endIndent: 15,
           ),
-          UserAchievement(
-            name: 'Ranking Global',
-            icon: Icons.language,
-            value: 152,
-          ),
-          VerticalDivider(
-            width: 0,
-            thickness: 3,
-            color: Colors.white30,
-            indent: 15,
-            endIndent: 15,
-          ),
+          // UserAchievement(
+          //   name: 'Ranking Global',
+          //   icon: Icons.language,
+          //   value: 0,
+          // ),
+          // VerticalDivider(
+          //   width: 0,
+          //   thickness: 3,
+          //   color: Colors.white30,
+          //   indent: 15,
+          //   endIndent: 15,
+          // ),
           UserAchievement(
             name: 'Medallas',
-            icon: Icons.star_border_rounded,
-            value: 2,
+            icon: Icons.verified,
+            value: (_achievmentsController.totalProgress() / 20).toInt(),
           ),
         ],
       ),

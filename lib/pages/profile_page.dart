@@ -1,6 +1,7 @@
 import 'package:cato_trivia/components/badges_container.dart';
 import 'package:cato_trivia/components/bottom_nav_layout.dart';
 import 'package:cato_trivia/components/double_circle.dart';
+import 'package:cato_trivia/controllers/achievments_controller.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -8,6 +9,7 @@ import 'package:get/get.dart';
 import 'package:cato_trivia/theme/colors.dart' as colors;
 
 class ProfilePage extends StatelessWidget {
+  final AchievmentsController _achievmentsController = Get.find();
   @override
   Widget build(BuildContext context) {
     return BottomNavLayout(
@@ -25,12 +27,12 @@ class ProfilePage extends StatelessWidget {
               Positioned(
                 top: Get.height * 0.05,
                 child: BadgesContainer(
-                  name: 'Guido Hernani',
+                  name: _achievmentsController.userName,
                 ),
               ),
               CircleAvatar(
                 child: SvgPicture.network(
-                  'https://api.multiavatar.com/Guix.svg',
+                  'https://api.multiavatar.com/${_achievmentsController.userName}.svg',
                 ),
                 minRadius: 40,
                 maxRadius: 40,

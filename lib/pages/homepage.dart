@@ -9,11 +9,13 @@ import 'package:cato_trivia/routes/routes.dart' as routes;
 import 'package:cato_trivia/theme/colors.dart' as colors;
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class HomePage extends StatelessWidget {
+  final AchievmentsController _achievmentsController = Get.find();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,7 +42,9 @@ class HomePage extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: CircleAvatar(
-                        child: Text('G'),
+                        child: SvgPicture.network(
+                          'https://api.multiavatar.com/${_achievmentsController.userName}.svg',
+                        ),
                         backgroundColor: Colors.red,
                       ),
                     )

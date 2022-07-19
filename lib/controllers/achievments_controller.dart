@@ -1,6 +1,8 @@
 import 'package:get/get.dart';
 
 class AchievmentsController extends GetxController {
+  String userName = 'Guido';
+
   bool generalAchievment = false;
   bool advientoAchievment = false;
   bool cuaresmaAchievment = false;
