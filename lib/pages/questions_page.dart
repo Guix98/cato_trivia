@@ -385,50 +385,52 @@ class QuizInitPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return WhiteCard(
-        child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Image.asset('assets/begin_questions.png'),
-        SizedBox(height: 20),
-        Container(
-          width: double.infinity,
-          padding: const EdgeInsets.all(8.0),
-          child: SingleChildScrollView(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Comenzar Test de: \n${_gameController.category.capitalizeFirst}',
-                  textAlign: TextAlign.start,
-                  style: GoogleFonts.rubik(
-                      fontWeight: FontWeight.w600, fontSize: 18),
-                ),
-                SizedBox(height: 20),
-                QuizInfoWidget(),
-                SizedBox(height: 20),
-                QuizzDescription(),
-                SizedBox(height: 20),
-                Center(
-                  child: MaterialButton(
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      color: colors.royalBlue,
-                      child: Text(
-                        "Empezar Juego",
-                        style: GoogleFonts.rubik(
-                            fontWeight: FontWeight.w600,
-                            fontSize: 18,
-                            color: Colors.white),
-                      ),
-                      onPressed: () {
-                        _gameController.newGame();
-                      }),
-                )
-              ],
+        child: SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Image.asset('assets/begin_questions.png'),
+          SizedBox(height: 20),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.all(8.0),
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Comenzar Test de: \n${_gameController.category.capitalizeFirst}',
+                    textAlign: TextAlign.start,
+                    style: GoogleFonts.rubik(
+                        fontWeight: FontWeight.w600, fontSize: 18),
+                  ),
+                  SizedBox(height: 20),
+                  QuizInfoWidget(),
+                  SizedBox(height: 20),
+                  QuizzDescription(),
+                  SizedBox(height: 20),
+                  Center(
+                    child: MaterialButton(
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(20)),
+                        color: colors.royalBlue,
+                        child: Text(
+                          "Empezar Juego",
+                          style: GoogleFonts.rubik(
+                              fontWeight: FontWeight.w600,
+                              fontSize: 18,
+                              color: Colors.white),
+                        ),
+                        onPressed: () {
+                          _gameController.newGame();
+                        }),
+                  )
+                ],
+              ),
             ),
-          ),
-        )
-      ],
+          )
+        ],
+      ),
     ));
   }
 }

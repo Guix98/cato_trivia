@@ -25,8 +25,9 @@ class BadgesContainer extends StatelessWidget {
               AchievementsContainer(),
               Container(
                 width: double.infinity,
-                height: 280,
+                height: Get.height * 0.5,
                 child: GridView.count(
+                  shrinkWrap: true,
                   mainAxisSpacing: 20,
                   crossAxisSpacing: 0,
                   crossAxisCount: 3,

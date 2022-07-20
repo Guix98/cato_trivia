@@ -668,7 +668,7 @@
      },
      "op2gg4gwMqK4Q8iqSwU9": {
          "categoria": "CUARESMA",
-         "incorrecta1": "DOMINDO DE PASCUA",
+         "incorrecta1": "DOMINGO DE PASCUA",
          "incorrecta2": "JUEVES SANTO",
          "incorrecta3": "VIERNES SANTO",
          "pregunta": "¿CUÁNDO COMIENZA LA CUARESMA?",
@@ -744,6 +744,13 @@
          "pregunta": "¿QUÉ DEBEN HACER LOS CATÓLICOS MAYORES DE 14 AÑOS LOS VIERNES DURANTE LA CUARESMA?",
          "respuesta": "ABSTENERSE DE COMER CARNE",
          "tipo": "M"
+
+     },
+     "ronB9Mo9WpTC6UpifmfP": {
+         "categoria": "CUARESMA",
+         "pregunta": "MIERCOLES DE CENIZA Y VIERNES SANTO SON DÍAS DE AYUNO",
+         "respuesta": "VERDADERO",
+         "tipo": "VF"
 
      },
      "t7zyRhdtfLQDTeQ4FjHB": {
