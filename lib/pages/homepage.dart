@@ -243,7 +243,7 @@ class FeaturedContainer extends StatelessWidget {
                         style: ElevatedButton.styleFrom(
                           shape: StadiumBorder(),
                           elevation: 0,
-                          primary: Colors.white,
+                          backgroundColor: Colors.white,
                         )),
                   )
                 ],

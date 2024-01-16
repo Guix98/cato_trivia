@@ -3,7 +3,6 @@ import 'package:cato_trivia/components/white_card.dart';
 import 'package:cato_trivia/controllers/achievments_controller.dart';
 import 'package:cato_trivia/controllers/game_controller.dart';
 import 'package:cato_trivia/controllers/quizz_controller.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
