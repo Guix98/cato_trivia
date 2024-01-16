@@ -6,7 +6,6 @@ import 'package:cato_trivia/controllers/achievments_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:cato_trivia/theme/colors.dart' as colors;
 
 class ProfilePage extends StatelessWidget {
   final AchievmentsController _achievmentsController = Get.find();

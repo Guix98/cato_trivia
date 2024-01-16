@@ -19,7 +19,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   @override
   void initState() {
-    WidgetsBinding.instance!.addObserver(this);
+    WidgetsBinding.instance.addObserver(this);
     Get.put<QuizzController>(QuizzController());
     Get.put<AchievmentsController>(AchievmentsController());
     Get.put<LoginController>(LoginController());

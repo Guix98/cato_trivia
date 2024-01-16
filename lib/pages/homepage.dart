@@ -1,11 +1,9 @@
 import 'package:cato_trivia/components/double_circle.dart';
 import 'package:cato_trivia/components/extras_container.dart';
 import 'package:cato_trivia/controllers/achievments_controller.dart';
-import 'package:cato_trivia/icons/leaderboard_icon.dart';
 import 'package:cato_trivia/pages/categories_page.dart';
 import 'package:cato_trivia/pages/profile_page.dart';
 import 'package:cato_trivia/pages/web/saint_of_the_day.dart';
-import 'package:cato_trivia/routes/routes.dart' as routes;
 import 'package:cato_trivia/theme/colors.dart' as colors;
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';

@@ -1,9 +1,6 @@
-import 'dart:math';
-
 import 'package:cato_trivia/models/question.dart';
 import 'package:get/get.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'dart:convert';
 import 'package:flutter/services.dart';
 
 class QuizzController extends GetxController {

@@ -268,6 +268,7 @@ class QuestionTrueOrFalse extends StatefulWidget {
 
 class _QuestionTrueOrFalseState extends State<QuestionTrueOrFalse> {
   final GameController _gameController = Get.find();
+  // ignore: unused_field
   var _selected = -1;
   @override
   Widget build(BuildContext context) {

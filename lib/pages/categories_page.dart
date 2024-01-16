@@ -6,7 +6,6 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:cato_trivia/theme/colors.dart' as colors;
 
-import '../controllers/quizz_controller.dart';
 
 class CategoriesPage extends StatelessWidget {
   @override

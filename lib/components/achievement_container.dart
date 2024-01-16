@@ -1,5 +1,4 @@
 import 'package:cato_trivia/components/user_achievement.dart';
-import 'package:cato_trivia/components/white_card.dart';
 import 'package:cato_trivia/controllers/achievments_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

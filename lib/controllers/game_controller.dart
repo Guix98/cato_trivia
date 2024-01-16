@@ -1,5 +1,4 @@
 import 'package:cato_trivia/controllers/quizz_controller.dart';
-import 'package:cato_trivia/models/question.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
